@@ -15,14 +15,18 @@ body {
 
 .gallery {
   list-style: none;
-  padding: 78px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
 }
 
 .gallery-item img {
-  width: 360px;
+  width: 100%;
   height: 300px;
-  display: block;
+  object-fit: cover;
 }
