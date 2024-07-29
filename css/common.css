@@ -13,6 +13,29 @@ body {
   line-height: 1.5;
 }
 
+ul {
+  list-style-type: none;
+}
+
+#categories {
+  font-family: "Montserrat";
+  color: #2e2f42;
+}
+
+.item {
+  background-color: #f6f6fe;
+}
+
+.item h2 {
+  padding: 16px;
+}
+
+.item li {
+  border: 1px solid #808080;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
 .gallery {
   list-style: none;
   padding: 0;
