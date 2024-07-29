@@ -20,20 +20,31 @@ ul {
 #categories {
   font-family: "Montserrat";
   color: #2e2f42;
+  max-width: 392px;
+  margin: 0 auto;
 }
 
 .item {
   background-color: #f6f6fe;
+  padding: 16px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+.item ul {
+  padding: 0px;
 }
 
 .item h2 {
-  padding: 16px;
+  margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .item li {
   border: 1px solid #808080;
   margin-bottom: 8px;
   border-radius: 4px;
+  padding: 8px 0px 8px 16px;
 }
 
 .gallery {
