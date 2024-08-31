@@ -23,6 +23,15 @@ button {
   letter-spacing: inherit;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
 #categories {
   max-width: 392px;
   margin: 0 auto;
@@ -94,17 +103,13 @@ h1 {
   max-width: 408px;
 }
 
-/* form:focus-within:focus-within {
-  border-color: #808080;
-} */
-
 .label-container {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-label {
+.login-form label {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -115,19 +120,39 @@ label {
   padding: 4px;
   border: 1px solid #808080;
   border-radius: 4px;
+  outline: none;
 }
 
-/* .login-form input:placeholder-shown {
-  border-color: #808080;
-} */
+.login-form input:hover {
+  border-color: black;
+}
 
 .login-form button {
   align-self: flex-start;
   padding: 8px 16px;
   color: #ffffff;
   background-color: #4e75ff;
-  cursor: pointer;
-  border: none;
   border-radius: 8px;
   font-weight: 500;
+}
+
+.widget {
+  width: 345px;
+  height: 280px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget p {
+  font-size: 16px;
+}
+
+.change-color {
+  background-color: #4e75ff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 8px 16px;
 }
