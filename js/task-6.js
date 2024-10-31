@@ -3,3 +3,7 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
+const colorContainerEl = document.querySelector("#boxes");
+
+// createBoxes(amount);

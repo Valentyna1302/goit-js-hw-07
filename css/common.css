@@ -157,3 +157,43 @@ h1 {
   border-radius: 8px;
   padding: 8px 16px;
 }
+
+#controls {
+  background-color: #f6f6fe;
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  max-width: 486px;
+}
+
+#controls input {
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  height: 40px;
+}
+
+.controls-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn-create:hover,
+.btn-cre .btn-destroy {
+  background-color: #ff4e4e;
+}
+
+.btn-destroy:hover,
+.btn-destroy:focus {
+  background-color: #ff7070;
+}
